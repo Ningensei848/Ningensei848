@@ -1,4 +1,4 @@
-name: README build
+name: periodical update README
 
 on:
   # push:
@@ -30,7 +30,12 @@ jobs:
         run: node index.js
         # env:
         #   OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
+      - name: Extract branch name  # cf. https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:
+          BRANCH_NAME: ${{ steps.extract_branch.outputs.branch }}
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
