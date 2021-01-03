@@ -39,8 +39,6 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
   <img alt="Blender" src="https://img.shields.io/badge/-Blender-F5792A?style=flat-square&logo=Blender&logoColor=white" />
   <img alt="unity" src="https://img.shields.io/badge/-unity-000000?style=flat-square&logo=unity&logoColor=white" />
   <img alt="Deno" src="https://img.shields.io/badge/-Deno-993399?style=flat-square&logo=Deno&logoColor=white" />
-  <img alt="GoLang" src="https://img.shields.io/badge/-Golang-00ADD8?style=flat-square&logo=Go&logoColor=white" />
-  <img alt="Apache%20Cassandra" src="https://img.shields.io/badge/-Apache%20Cassandra-1287B1?style=flat-square&logo=Apache%20Cassandra&logoColor=white"/>
 </p>
 
 ### Favorites
@@ -67,13 +65,17 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
   <img alt="HP" src="https://img.shields.io/badge/-HP-0096D6?style=flat-square&logo=HP&logoColor=white" />
 </p>
 
-### Why don't you visit <img src="https://www.flaticon.com/premium-icon/icons/svg/2299/2299972.svg" width="50"/> Japan ?
+### Why don't you visit <img alt="Mt.Fuji" src="https://www.flaticon.com/svg/static/icons/svg/2223/2223068.svg" width="50"/> Japan ?
 
 
-<p><img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;134373569_194263785735158_6251444402990986609_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;1&amp;_nc_ohc&#x3D;D4dWjU7EyDEAX_hfv8Z&amp;tp&#x3D;1&amp;oh&#x3D;39e8a7c783e5006632e2611f9699aa7a&amp;oe&#x3D;6019CB14" /> <img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;134222826_152207803085816_4143675672622593003_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;108&amp;_nc_ohc&#x3D;qS28Xj5AQRMAX_DgYYD&amp;tp&#x3D;1&amp;oh&#x3D;668a831daba4edc7a5737109a909b452&amp;oe&#x3D;601A5150" /> <img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;133723634_221461972884098_7940314267042044643_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;102&amp;_nc_ohc&#x3D;AnDvFQbv6CAAX-Hg-mD&amp;tp&#x3D;1&amp;oh&#x3D;da8b1416009247079de7534f2de2f528&amp;oe&#x3D;601AE681" /></p>
+<p align="center">
+  <img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;134373569_194263785735158_6251444402990986609_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;1&amp;_nc_ohc&#x3D;D4dWjU7EyDEAX_hfv8Z&amp;tp&#x3D;1&amp;oh&#x3D;39e8a7c783e5006632e2611f9699aa7a&amp;oe&#x3D;6019CB14" />
+  <img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;134222826_152207803085816_4143675672622593003_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;108&amp;_nc_ohc&#x3D;qS28Xj5AQRMAX_DgYYD&amp;tp&#x3D;1&amp;oh&#x3D;668a831daba4edc7a5737109a909b452&amp;oe&#x3D;601A5150" />
+  <img width="200" src="https:&#x2F;&#x2F;scontent-bos3-1.cdninstagram.com&#x2F;v&#x2F;t51.2885-15&#x2F;sh0.08&#x2F;e35&#x2F;p640x640&#x2F;133723634_221461972884098_7940314267042044643_n.jpg?_nc_ht&#x3D;scontent-bos3-1.cdninstagram.com&amp;_nc_cat&#x3D;102&amp;_nc_ohc&#x3D;AnDvFQbv6CAAX-Hg-mD&amp;tp&#x3D;1&amp;oh&#x3D;da8b1416009247079de7534f2de2f528&amp;oe&#x3D;601AE681" />
+</p>
 
-<p>
-  Above are the last 3 pictures posted by <a href="https://www.instagram.com/visitjapanjp/" target="_blank">@visitjapanjp !</a>
+<p align="center">
+  Above are the last 3 pictures posted by <a href="https://www.instagram.com/visitjapanjp/" target="_blank">@VisitJapanJP</a> <a href="https://www.instagram.com/visitjapanjp/" target="_blank"><img alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/></a>
 </p>
 
 ### Where to find me
@@ -89,7 +91,7 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: 1月4日月曜日 0:03 JST<br />
+  Last refresh: Monday, 4 January, 00:09 GMT+9<br />
 </p>
 
 <!--
