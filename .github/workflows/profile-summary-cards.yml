@@ -1,8 +1,8 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # execute every 24 hours
-    - cron: '* */24 * * *'
+  schedule: # 日本時間0時に実行
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
