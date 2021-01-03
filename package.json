@@ -1,0 +1,28 @@
+{
+  "name": "ningensei848",
+  "version": "0.1.0",
+  "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ningensei848/Ningensei848.git"
+  },
+  "keywords": [
+    "readme.md",
+    "github",
+    "actions",
+    "dynamic",
+    "javascript"
+  ],
+  "author": "Kubokawa.K",
+  "homepage": "https://github.com/Ningensei848/Ningensei848#README",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mustache": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.1.0"
+  }
+}
