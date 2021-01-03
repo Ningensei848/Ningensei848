@@ -9,7 +9,7 @@ const puppeteerService = require("./auto-readme-generate/puppeteer.service");
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 
 let DATA = {
-  refresh_date: new Date().toLocaleDateString("ja-JP", {
+  refresh_date: new Date().toLocaleDateString("en-GB", {
     weekday: "long",
     month: "long",
     day: "numeric",
