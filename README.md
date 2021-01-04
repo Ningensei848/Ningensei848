@@ -69,6 +69,7 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
   <a href="https://www8.hp.com/" target="_blank" rel="noopener noreferrer"><img alt="HP Inc. is an American multinational information technology company headquartered in Palo Alto, California, that develops personal computers (PCs), printers and related supplies, as well as 3D printing solutions." src="https://img.shields.io/badge/-HP-0096D6?style=flat-square&logo=HP&logoColor=white" /></a>
 </p>
 
+
 ### Why don't you visit <img alt="Mt.Fuji" src="https://www.flaticon.com/svg/static/icons/svg/2223/2223068.svg" width="40"/> Japan ?
 
 
