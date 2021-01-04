@@ -5,6 +5,7 @@ const Mustache = require("mustache");
 const fetch = require("node-fetch");
 const fs = require("fs");
 const puppeteerService = require("./auto-readme-generate/puppeteer.service");
+const logo = require("./auto-readme-generate/logoInfo");
 
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 
@@ -18,6 +19,7 @@ let DATA = {
     timeZoneName: "short",
     timeZone: "Asia/Tokyo",
   }),
+  ...logo,
 };
 
 async function setInstagramPosts() {
