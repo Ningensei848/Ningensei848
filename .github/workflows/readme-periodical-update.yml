@@ -35,7 +35,7 @@ jobs:
         run: echo "##[set-output name=branch;]${GITHUB_REF#refs/heads/}"
         id: extract_branch
       - name: git setting
-        run: git pull --rebase origin ${BRANCH_NAME}
+        run: git pull origin ${BRANCH_NAME}
         env:
           BRANCH_NAME: ${{ steps.extract_branch.outputs.branch }}
       - name: Push new README.md
