@@ -11,6 +11,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # cf. https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepstimeout-minutes
+    timeout-minutes: 5 # job 全体を完了するまでの制限時間
 
     steps:
       - name: checkout
