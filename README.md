@@ -80,9 +80,9 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 
 
 <p align="center">
-  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
+  <a href="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cc0.135.1080.1080a%7C%7Cs640x640%7C%7C254916967_286837346673851_7442237797751889391_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D111%26_nc_ohc%3DxF0BpfFyi5kAX8LgMH4%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3D47d8de5856e4877ff344d7f599ca2ae2%26oe%3D6191BCD0%26_nc_sid%3D7bff83" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cc0.135.1080.1080a%7C%7Cs640x640%7C%7C254916967_286837346673851_7442237797751889391_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D111%26_nc_ohc%3DxF0BpfFyi5kAX8LgMH4%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3D47d8de5856e4877ff344d7f599ca2ae2%26oe%3D6191BCD0%26_nc_sid%3D7bff83" /></a>
+  <a href="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cs640x640%7C%7C253835525_417137923211791_1109216897936557869_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D107%26_nc_ohc%3DsD0XZAQS4hQAX8P4fN5%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3D8df48ec50efbfe500497e82383189680%26oe%3D61925557%26_nc_sid%3D7bff83" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cs640x640%7C%7C253835525_417137923211791_1109216897936557869_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D107%26_nc_ohc%3DsD0XZAQS4hQAX8P4fN5%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3D8df48ec50efbfe500497e82383189680%26oe%3D61925557%26_nc_sid%3D7bff83" /></a>
+  <a href="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cc0.134.1080.1080a%7C%7Cs640x640%7C%7C253084971_418157169765993_4529491588954508889_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D109%26_nc_ohc%3D3aGPxd4swagAX8MlI6S%26tn%3DEvYobUkWNOWnVOlq%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3De852a0258a70323c821e6a22b5fe6df8%26oe%3D6192BF67%26_nc_sid%3D7bff83" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;www.picuki.com&#x2F;hosted-by-instagram&#x2F;url&#x3D;https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Csh0.08%7C%7Ce35%7C%7Cc0.134.1080.1080a%7C%7Cs640x640%7C%7C253084971_418157169765993_4529491588954508889_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D109%26_nc_ohc%3D3aGPxd4swagAX8MlI6S%26tn%3DEvYobUkWNOWnVOlq%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3De852a0258a70323c821e6a22b5fe6df8%26oe%3D6192BF67%26_nc_sid%3D7bff83" /></a>
 </p>
 
 <p align="center">
@@ -107,7 +107,7 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: Wednesday, 10 November, 00:47 GMT+9<br />
+  Last refresh: Thursday, 11 November, 00:43 GMT+9<br />
 </p>
 
 <!--
