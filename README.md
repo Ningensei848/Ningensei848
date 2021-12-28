@@ -71,12 +71,11 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
   <a href="https://www.netflix.com/" target="_blank" rel="noopener noreferrer"><img alt="Netflix: Watch TV Shows Online, Watch Movies Online" src="https://img.shields.io/badge/-Netflix-000000?style=flat-square&logo=Netflix&logoColor=%23E50914" /></a>
   <a href="https://about.me/" target="_blank" rel="noopener noreferrer"><img alt="about.me: your personal homepage" src="https://img.shields.io/badge/-About.me-00A98F?style=flat-square&logo=About.me&logoColor=white" /></a>
   <a href="https://www.pixiv.net/" target="_blank" rel="noopener noreferrer"><img alt="pixiv is an illustration community service where you can post and enjoy creative work." src="https://img.shields.io/badge/-Pixiv-0096FA?style=flat-square&logo=Pixiv&logoColor=white" /></a>
-  <a href="https://www.nicovideo.jp/" target="_blank" rel="noopener noreferrer"><img alt="Niconico (ニコニコ, Nikoniko), known before 2012 as Nico Nico Douga (ニコニコ動画, Niko Niko Dōga), is a Japanese video-sharing service on the web. "Niconico" or "nikoniko" is the Japanese ideophone for smiling." src="https://img.shields.io/badge/-niconico-231815?style=flat-square&logo=niconico&logoColor=white" /></a>
   <a href="https://www.animal-crossing.com/new-horizons/" target="_blank" rel="noopener noreferrer"><img alt="Animal Crossing: New Horizons is a life simulation game developed and published by Nintendo for the Nintendo Switch. " src="https://img.shields.io/badge/-Animal%20Crossing-E60012?style=flat-square&logo=Nintendo%20Switch&logoColor=white" /></a>
   <a href="https://www8.hp.com/" target="_blank" rel="noopener noreferrer"><img alt="HP Inc. is an American multinational information technology company headquartered in Palo Alto, California, that develops personal computers (PCs), printers and related supplies, as well as 3D printing solutions." src="https://img.shields.io/badge/-HP-0096D6?style=flat-square&logo=HP&logoColor=white" /></a>
 </p>
 
-### Why don't you visit <img alt="Mt.Fuji" src="https://www.flaticon.com/svg/static/icons/svg/2223/2223068.svg" width="40"/> Japan ?
+### Why don't you visit Japan ?
 
 
 <p align="center">
