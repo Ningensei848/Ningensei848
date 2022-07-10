@@ -78,9 +78,9 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 ### Why don't you visit Japan ?
 
 <p align="center">
-  <a href="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5ogqUllSCT19O0TYTbeOSDhR5q6cVubN0jFm8Z9nnb40K3UcZnao9scqVAmYdSgIGaYDG7uo%7C%7CesJ+fjrcjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr6gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3Eu8EIU8hjl246h0Ls5wtvpC3BYdA+MZgg431XFlBS2I2hCM9kauCxjPIZzCa8xIf5CbWxr7sU9wgosXdItG8dPrIiiLDbOyJWe4KUnJSUKzpcmuEc6yBJeZSlKZgMNpDxQij%7C%7CRaHIp253yVeOxIe0jylHIZkUPmS85Cm1Uj+o3uBpVptwu+fWOAOmBhi%7C%7CMay+g9%7C%7CJCvEA84XaA&#x3D;&#x3D;" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5ogqUllSCT19O0TYTbeOSDhR5q6cVubN0jFm8Z9nnb40K3UcZnao9scqVAmYdSgIGaYDG7uo%7C%7CesJ+fjrcjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr6gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3Eu8EIU8hjl246h0Ls5wtvpC3BYdA+MZgg431XFlBS2I2hCM9kauCxjPIZzCa8xIf5CbWxr7sU9wgosXdItG8dPrIiiLDbOyJWe4KUnJSUKzpcmuEc6yBJeZSlKZgMNpDxQij%7C%7CRaHIp253yVeOxIe0jylHIZkUPmS85Cm1Uj+o3uBpVptwu+fWOAOmBhi%7C%7CMay+g9%7C%7CJCvEA84XaA&#x3D;&#x3D;" /></a>
-  <a href="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWg9SZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5osrVFpTCT1+OUHcTbyITj1T7a+eXerN0TVj95VjkrgzKHEeYnKo9sYsXAmYdSgIGaYDG7uo%7C%7CesJ+fjqcjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr2gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3EO8EIU8hjl246iUHhqA%7C%7CsYqsIItA+MZ1gJ%7C%7C4HzJBWmhm+jVMlpDtuiTvSUGI%7C%7CgVRwGKOlf7kNPEu+8WgGtKpGOLAyjmVI7%7C%7CtPLkaDHcGJd%7C%7CQZxL6CuzvVvdos4YaGfYaxXqm31eXc6f85gQ3CzAX1WaoKbEiYK%7C%7Cb+6GnzWTZhmDZogE9yJ8&#x3D;" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWg9SZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5osrVFpTCT1+OUHcTbyITj1T7a+eXerN0TVj95VjkrgzKHEeYnKo9sYsXAmYdSgIGaYDG7uo%7C%7CesJ+fjqcjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr2gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3EO8EIU8hjl246iUHhqA%7C%7CsYqsIItA+MZ1gJ%7C%7C4HzJBWmhm+jVMlpDtuiTvSUGI%7C%7CgVRwGKOlf7kNPEu+8WgGtKpGOLAyjmVI7%7C%7CtPLkaDHcGJd%7C%7CQZxL6CuzvVvdos4YaGfYaxXqm31eXc6f85gQ3CzAX1WaoKbEiYK%7C%7Cb+6GnzWTZhmDZogE9yJ8&#x3D;" /></a>
-  <a href="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5ogtU1hTDz1zO0zZTLeMTjlU6qyeUu7N1TRi%7C%7CZdgkrkyLXIXYHGq8MMvUgmYdSgIGaYDG7uo%7C%7CesJ+frucjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr6gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3Hu8EIU8hjl246iUosbkKnpChI6VA+MZhlImPSkNBWmhm+jVMlpDtuiTvSUGI%7C%7CgVRwGKOlf7kNPEu+8WgGtKpDdX56TDYdJ+LAe9re2xYC6rgVQvmN8yCEeRDkalkMPUX8g+D9j+QTb7eiTI3CzAX1WaoKMBSFq%7C%7Cb+6GnzWTZhmDZogE9yJ8&#x3D;" target="_blank" rel="noopener noreferrer"><img width="25%" src="https:&#x2F;&#x2F;cdn1.picuki.com&#x2F;hosted-by-instagram&#x2F;q&#x3D;0exhNuNYnjBcaS3SYdxKjf8K3+1yWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYz1p5ogtU1hTDz1zO0zZTLeMTjlU6qyeUu7N1TRi%7C%7CZdgkrkyLXIXYHGq8MMvUgmYdSgIGaYDG7uo%7C%7CesJ+frucjcFrjOMNbRKmDdttdCwFahlza4lsfe4kx2xu5xncG114WNxahlw5OLUqQUCSKnjMcF6saR5UvoAi99Wpr6gmCG2GGM5b295BTGS9IjOkqg8iyDXdzQspjD3Hu8EIU8hjl246iUosbkKnpChI6VA+MZhlImPSkNBWmhm+jVMlpDtuiTvSUGI%7C%7CgVRwGKOlf7kNPEu+8WgGtKpDdX56TDYdJ+LAe9re2xYC6rgVQvmN8yCEeRDkalkMPUX8g+D9j+QTb7eiTI3CzAX1WaoKMBSFq%7C%7Cb+6GnzWTZhmDZogE9yJ8&#x3D;" /></a>
+  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
+  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
+  <a href="" target="_blank" rel="noopener noreferrer"><img width="25%" src="" /></a>
 </p>
 
 <p align="center">
@@ -105,7 +105,7 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: Friday, 8 July, 00:55 GMT+9<br />
+  Last refresh: Monday, 11 July, 00:42 GMT+9<br />
 </p>
 
 <!--
