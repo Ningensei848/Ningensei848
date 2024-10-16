@@ -105,7 +105,7 @@ I'm Kubokawa, Student developer from Tsukuba, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: Wednesday, 16 October, 00:39 GMT+9<br />
+  Last refresh: Thursday, 17 October, 00:39 GMT+9<br />
 </p>
 
 <!--
