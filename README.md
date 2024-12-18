@@ -93,7 +93,7 @@ I'm Kubokawa, Weekend developer from Tokyo, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: Wednesday, 18 December, 00:41 GMT+9<br />
+  Last refresh: Thursday, 19 December, 00:40 GMT+9<br />
 </p>
 
 <!--
