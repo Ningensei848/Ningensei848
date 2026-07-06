@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const Mustache = require("mustache");
-const puppeteerService = require("./auto-readme-generate/puppeteer.service");
+const instagramApiService = require("./auto-readme-generate/instagram-api.service");
 const logo = require("./auto-readme-generate/logoInfo");
 
 const TEMPLATE_PATH = "./main.mustache";
@@ -67,7 +67,7 @@ function validateInstagramImages(images) {
 async function setInstagramPosts() {
   try {
     const instagramImages =
-      await puppeteerService.getLatestInstagramPostsFromAccount(
+      await instagramApiService.getLatestInstagramPostsFromAccount(
         INSTAGRAM_ACCOUNT,
         INSTAGRAM_POST_COUNT,
       );
@@ -93,30 +93,23 @@ async function generateReadMe(template) {
 }
 
 async function action() {
-  try {
-    const template = await fs.promises.readFile(TEMPLATE_PATH, "utf8");
+  const template = await fs.promises.readFile(TEMPLATE_PATH, "utf8");
 
-    if (templateUsesInstagramPosts(template)) {
-      /**
-       * Get pictures
-       */
-      await setInstagramPosts();
-    } else {
-      console.warn(
-        "Skipping Instagram fetch because the template does not use Instagram image placeholders.",
-      );
-    }
-
+  if (templateUsesInstagramPosts(template)) {
     /**
-     * Generate README
+     * Get pictures
      */
-    await generateReadMe(template);
-  } finally {
-    /**
-     * Fermeture de la boutique 👋
-     */
-    await puppeteerService.close();
+    await setInstagramPosts();
+  } else {
+    console.warn(
+      "Skipping Instagram fetch because the template does not use Instagram image placeholders.",
+    );
   }
+
+  /**
+   * Generate README
+   */
+  await generateReadMe(template);
 }
 
 action().catch((error) => {
