@@ -40,8 +40,14 @@ class PuppeteerService {
   }
 
   async close() {
-    await this.page.close();
-    await this.browser.close();
+    if (this.page) {
+      await this.page.close();
+      this.page = undefined;
+    }
+    if (this.browser) {
+      await this.browser.close();
+      this.browser = undefined;
+    }
   }
 
   /**
@@ -57,7 +63,7 @@ class PuppeteerService {
     try {
       previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
       await this.page.evaluate(
-        `window.scrollTo(0, document.body.scrollHeight)`
+        `window.scrollTo(0, document.body.scrollHeight)`,
       );
       await this.page.waitForTimeout(1000);
 
@@ -68,8 +74,9 @@ class PuppeteerService {
 
       return nodes.slice(0, 3);
     } catch (error) {
-      console.log("Error", error);
-      process.exit();
+      throw new Error(
+        `Failed to fetch Instagram posts for ${acc}: ${error.message}`,
+      );
     }
   }
 }
