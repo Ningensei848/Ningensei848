@@ -1,13 +1,14 @@
 // cf. https://github.com/thmsgbrt/thmsgbrt/blob/master/index.js
 
-require("dotenv").config();
-const Mustache = require("mustache");
-const fetch = require("node-fetch");
 const fs = require("fs");
+const Mustache = require("mustache");
 const puppeteerService = require("./auto-readme-generate/puppeteer.service");
 const logo = require("./auto-readme-generate/logoInfo");
 
-const MUSTACHE_MAIN_DIR = "./main.mustache";
+const TEMPLATE_PATH = "./main.mustache";
+const README_PATH = "README.md";
+const INSTAGRAM_ACCOUNT = "visitjapanjp";
+const INSTAGRAM_POST_COUNT = 3;
 
 let DATA = {
   refresh_date: new Date().toLocaleDateString("en-GB", {
@@ -23,38 +24,54 @@ let DATA = {
 };
 
 async function setInstagramPosts() {
-  const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount(
-    "visitjapanjp",
-    3
-  );
+  const instagramImages =
+    await puppeteerService.getLatestInstagramPostsFromAccount(
+      INSTAGRAM_ACCOUNT,
+      INSTAGRAM_POST_COUNT,
+    );
+
+  if (
+    !Array.isArray(instagramImages) ||
+    instagramImages.length < INSTAGRAM_POST_COUNT
+  ) {
+    throw new Error(
+      `Expected ${INSTAGRAM_POST_COUNT} Instagram images from ${INSTAGRAM_ACCOUNT}, but received ${
+        Array.isArray(instagramImages) ? instagramImages.length : 0
+      }.`,
+    );
+  }
+
   DATA.img1 = instagramImages[0];
   DATA.img2 = instagramImages[1];
   DATA.img3 = instagramImages[2];
 }
 
 async function generateReadMe() {
-  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
-    if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync("README.md", output);
-  });
+  const template = await fs.promises.readFile(TEMPLATE_PATH, "utf8");
+  const output = Mustache.render(template, DATA);
+  await fs.promises.writeFile(README_PATH, output);
 }
 
 async function action() {
-  /**
-   * Get pictures
-   */
-  await setInstagramPosts();
+  try {
+    /**
+     * Get pictures
+     */
+    await setInstagramPosts();
 
-  /**
-   * Generate README
-   */
-  await generateReadMe();
-
-  /**
-   * Fermeture de la boutique 👋
-   */
-  await puppeteerService.close();
+    /**
+     * Generate README
+     */
+    await generateReadMe();
+  } finally {
+    /**
+     * Fermeture de la boutique 👋
+     */
+    await puppeteerService.close();
+  }
 }
 
-action();
+action().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
