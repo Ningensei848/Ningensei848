@@ -28,8 +28,22 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Refresh Instagram Token
+        id: refresh-instagram-token
+        run: node auto-readme-generate/refresh-token.js
+        env:
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+      - name: Update GitHub Secret
+        run: gh secret set INSTAGRAM_ACCESS_TOKEN --body "${{ steps.refresh-instagram-token.outputs.new_token }}"
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Generate README
         run: npm run generate
+        env:
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ steps.refresh-instagram-token.outputs.new_token }}
       - name: Commit and push changes
         shell: bash
         run: |
