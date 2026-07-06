@@ -9,6 +9,25 @@ const TEMPLATE_PATH = "./main.mustache";
 const README_PATH = "README.md";
 const INSTAGRAM_ACCOUNT = "visitjapanjp";
 const INSTAGRAM_POST_COUNT = 3;
+const FALLBACK_INSTAGRAM_IMAGES = [
+  {
+    alt: "Mount Fuji fallback image from Wikimedia Commons",
+    url: "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Hotel_Mt_Fuji_1995-4-10.jpg",
+    source:
+      "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Hotel_Mt_Fuji_1995-4-10.jpg",
+  },
+  {
+    alt: "Kinkaku-ji fallback image from Wikimedia Commons",
+    url: "https://commons.wikimedia.org/wiki/Special:FilePath/Kinkakuji_2004-09-21.jpg",
+    source: "https://commons.wikimedia.org/wiki/File:Kinkakuji_2004-09-21.jpg",
+  },
+  {
+    alt: "Fushimi Inari Taisha fallback image from Wikimedia Commons",
+    url: "https://commons.wikimedia.org/wiki/Special:FilePath/Fushimi_Inari_Taisha_02.jpg",
+    source:
+      "https://commons.wikimedia.org/wiki/File:Fushimi_Inari_Taisha_02.jpg",
+  },
+];
 
 let DATA = {
   refresh_date: new Date().toLocaleDateString("en-GB", {
@@ -23,46 +42,75 @@ let DATA = {
   ...logo,
 };
 
-async function setInstagramPosts() {
-  const instagramImages =
-    await puppeteerService.getLatestInstagramPostsFromAccount(
-      INSTAGRAM_ACCOUNT,
-      INSTAGRAM_POST_COUNT,
-    );
+function applyInstagramImages(images) {
+  images.slice(0, INSTAGRAM_POST_COUNT).forEach((image, index) => {
+    const imageNumber = index + 1;
+    const imageData = typeof image === "string" ? { url: image } : image;
 
-  if (
-    !Array.isArray(instagramImages) ||
-    instagramImages.length < INSTAGRAM_POST_COUNT
-  ) {
+    DATA[`img${imageNumber}`] = imageData.url;
+    DATA[`img${imageNumber}_alt`] =
+      imageData.alt || `Japan inspiration image ${imageNumber}`;
+    DATA[`img${imageNumber}_source`] = imageData.source || imageData.url;
+  });
+}
+
+function validateInstagramImages(images) {
+  if (!Array.isArray(images) || images.length < INSTAGRAM_POST_COUNT) {
     throw new Error(
       `Expected ${INSTAGRAM_POST_COUNT} Instagram images from ${INSTAGRAM_ACCOUNT}, but received ${
-        Array.isArray(instagramImages) ? instagramImages.length : 0
+        Array.isArray(images) ? images.length : 0
       }.`,
     );
   }
-
-  DATA.img1 = instagramImages[0];
-  DATA.img2 = instagramImages[1];
-  DATA.img3 = instagramImages[2];
 }
 
-async function generateReadMe() {
-  const template = await fs.promises.readFile(TEMPLATE_PATH, "utf8");
+async function setInstagramPosts() {
+  try {
+    const instagramImages =
+      await puppeteerService.getLatestInstagramPostsFromAccount(
+        INSTAGRAM_ACCOUNT,
+        INSTAGRAM_POST_COUNT,
+      );
+
+    validateInstagramImages(instagramImages);
+    applyInstagramImages(instagramImages);
+  } catch (error) {
+    console.warn(
+      `Unable to fetch Instagram images for ${INSTAGRAM_ACCOUNT}; using fallback images instead.`,
+    );
+    console.warn(error.message);
+    applyInstagramImages(FALLBACK_INSTAGRAM_IMAGES);
+  }
+}
+
+function templateUsesInstagramPosts(template) {
+  return ["img1", "img2", "img3"].some((key) => template.includes(`{{${key}}`));
+}
+
+async function generateReadMe(template) {
   const output = Mustache.render(template, DATA);
   await fs.promises.writeFile(README_PATH, output);
 }
 
 async function action() {
   try {
-    /**
-     * Get pictures
-     */
-    await setInstagramPosts();
+    const template = await fs.promises.readFile(TEMPLATE_PATH, "utf8");
+
+    if (templateUsesInstagramPosts(template)) {
+      /**
+       * Get pictures
+       */
+      await setInstagramPosts();
+    } else {
+      console.warn(
+        "Skipping Instagram fetch because the template does not use Instagram image placeholders.",
+      );
+    }
 
     /**
      * Generate README
      */
-    await generateReadMe();
+    await generateReadMe(template);
   } finally {
     /**
      * Fermeture de la boutique 👋

@@ -1,4 +1,8 @@
 const puppeteer = require("puppeteer");
+
+const wait = (milliseconds) =>
+  new Promise((resolve) => setTimeout(resolve, milliseconds));
+
 class PuppeteerService {
   browser;
   page;
@@ -10,10 +14,9 @@ class PuppeteerService {
         "--disable-setuid-sandbox",
         "--disable-infobars",
         "--window-position=0,0",
-        "--ignore-certifcate-errors",
-        "--ignore-certifcate-errors-spki-list",
+        "--ignore-certificate-errors",
+        "--ignore-certificate-errors-spki-list",
         "--incognito",
-        "--proxy-server=http=194.67.37.90:3128",
         // '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
       ],
       // headless: false,
@@ -58,21 +61,19 @@ class PuppeteerService {
   async getLatestInstagramPostsFromAccount(acc, n) {
     const page = `https://www.picuki.com/profile/${acc}`;
     await this.goToPage(page);
-    let previousHeight;
-
     try {
-      previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
+      await this.page.evaluate(`document.body.scrollHeight`);
       await this.page.evaluate(
         `window.scrollTo(0, document.body.scrollHeight)`,
       );
-      await this.page.waitForTimeout(1000);
+      await wait(1000);
 
       const nodes = await this.page.evaluate(() => {
         const images = document.querySelectorAll(`.post-image`);
         return [].map.call(images, (img) => img.src);
       });
 
-      return nodes.slice(0, 3);
+      return nodes.slice(0, n);
     } catch (error) {
       throw new Error(
         `Failed to fetch Instagram posts for ${acc}: ${error.message}`,

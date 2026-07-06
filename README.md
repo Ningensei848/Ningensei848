@@ -75,6 +75,16 @@ I'm Kubokawa, Weekend developer from Tokyo, Japan.
   <a href="https://www.netflix.com/" target="_blank" rel="noopener noreferrer"><img alt="Netflix: Watch TV Shows Online, Watch Movies Online" src="https://img.shields.io/badge/-Netflix-000000?style=flat-square&logo=Netflix&logoColor=%23E50914" /></a>
 </p>
 
+### Japan inspiration
+
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Hotel_Mt_Fuji_1995-4-10.jpg" target="_blank" rel="noopener noreferrer"><img alt="Mount Fuji fallback image from Wikimedia Commons" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Hotel_Mt_Fuji_1995-4-10.jpg" width="30%" /></a>
+  <a href="https://commons.wikimedia.org/wiki/File:Kinkakuji_2004-09-21.jpg" target="_blank" rel="noopener noreferrer"><img alt="Kinkaku-ji fallback image from Wikimedia Commons" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kinkakuji_2004-09-21.jpg" width="30%" /></a>
+  <a href="https://commons.wikimedia.org/wiki/File:Fushimi_Inari_Taisha_02.jpg" target="_blank" rel="noopener noreferrer"><img alt="Fushimi Inari Taisha fallback image from Wikimedia Commons" src="https://commons.wikimedia.org/wiki/Special:FilePath/Fushimi_Inari_Taisha_02.jpg" width="30%" /></a>
+  <br />
+  <sub>Fallback images are linked to their Wikimedia Commons source pages when Picuki is unavailable.</sub>
+</p>
+
 ### Where to find me
 
 <p align="center">
@@ -93,7 +103,7 @@ I'm Kubokawa, Weekend developer from Tokyo, Japan.
 
 <p align="center">
   This <i>README</i> file is generated everyday!<br />
-  Last refresh: Monday, 3 March, 00:37 GMT+9<br />
+  Last refresh: Monday 6 July at 11:21 GMT+9<br />
 </p>
 
 <!--
