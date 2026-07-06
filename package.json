@@ -4,7 +4,8 @@
   "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node index.js",
+    "test": "node --check index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,7 @@
   "author": "Kubokawa.K",
   "homepage": "https://github.com/Ningensei848/Ningensei848#README",
   "dependencies": {
-    "dotenv": "^8.2.0",
     "mustache": "^4.0.1",
-    "node-fetch": "^2.6.1",
-    "puppeteer": "^5.1.0"
+    "puppeteer": "^24.43.1"
   }
 }
